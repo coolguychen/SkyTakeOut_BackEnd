@@ -3,7 +3,7 @@ server:
 
 spring:
   profiles:
-    active: dev
+    active: dev # 开启dev
   main:
     allow-circular-references: true
   datasource:

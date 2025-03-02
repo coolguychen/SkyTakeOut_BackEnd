@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 @Data
-@Builder
+@Builder // @Builder 是 Lombok 库提供的一个注解，用于自动生成 建造者模式（Builder Pattern） 的代码。简化对象创建过程
 @NoArgsConstructor
 @AllArgsConstructor
 @ApiModel(description = "员工登录返回的数据格式")
